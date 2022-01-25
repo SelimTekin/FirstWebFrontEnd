@@ -1,0 +1,94 @@
+body {
+      background-image: linear-gradient(to right, white,rgb(100, 100, 100));
+    /*background-image: url('images/sanat.jpg');
+      background-size: 5000px;
+      background-repeat: no-repeat;*/
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 90px;
+  }
+  header .art {
+    width: 200px;
+    height: 70px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+  }
+  nav {
+    background-color: rgb(100, 100, 100);
+    margin-top: 20px;
+  }
+  .navbar-brand {
+    margin-left: 300px;
+  }
+  .navbar-collapse {
+    margin-left: 200px;
+  }
+  .navbar .collapse ul li ul {
+    display: none;
+  }
+  .navbar .collapse ul li ul li a {
+    text-decoration: none;
+    color: yellow;
+  }
+  .navbar .collapse ul li ul li:hover a {
+    text-decoration: none;
+  }
+  .navbar .collapse ul li ul li:active a {
+    color: rgb(255, 153, 0);
+  }
+  .navbar .collapse ul li ul li:visited a {
+    color: rgb(255, 0, 0);
+  }
+  .navbar .collapse ul li {
+    margin-right: 50px;
+  }
+  .navbar .collapse ul li:hover ul {
+    display: block;
+  }
+  .navbar .collapse ul li ul li {
+    list-style-type: none;
+  }
+  .tik {
+    color: rgb(3, 46, 17);
+  }
+/*article*/
+
+.card{
+  border-radius: 20px;
+  margin-right: 10px;
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+.card-img-top{
+  border-radius: 20px;
+}
+  .kisi,
+  .cizgi,
+  .pol,
+  .rom,
+  .klas {
+    background-color: gray;
+    text-align: center;
+  }
+  
+  /*footer*/
+
+  footer{
+    background-color: rgb(100, 100, 100);
+    color: white;
+    height: 100px;
+    padding-top: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover{
+    color: black;
+}

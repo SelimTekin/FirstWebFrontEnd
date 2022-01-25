@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SanArt</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="muzikler.css">
+    <link rel="shortcut icon" type="image/png" href="images/art.jpg"/>
+    <script>
+      $(document).ready(function(){
+        $("#yabanci").click(function(){
+          $(".first").slideDown("slow");
+          $(".close1").slideDown("slow");
+        });
+        $(".close1").click(function(){
+          $(".first").slideUp("slow");
+          $(".close1").slideUp("slow");
+        });
+
+        $("#blues").click(function(){
+          $(".second").slideDown("slow");
+          $(".close2").slideDown("slow");
+        });
+        $(".close2").click(function(){
+          $(".second").slideUp("slow");
+          $(".close2").slideUp("slow");
+        });
+
+        $("#turkPop").click(function(){
+          $(".thirst").slideDown("slow");
+          $(".close3").slideDown("slow");
+        });
+        $(".close3").click(function(){
+          $(".thirst").slideUp("slow");
+          $(".close3").slideUp("slow");
+        });
+
+        $("#klasik").click(function(){
+          $(".fourth").slideDown("slow");
+          $(".close4").slideDown("slow");
+        });
+        $(".close4").click(function(){
+          $(".fourth").slideUp("slow");
+          $(".close4").slideUp("slow");
+        });
+
+        $("#fon").click(function(){
+          $(".fifth").slideDown("slow");
+          $(".close5").slideDown("slow");
+          var elem = $("footer").css("position", "relative");
+          $(elem).css("top", "600px");
+        });
+        $(".close5").click(function(){
+          $(".fifth").slideUp("slow");
+          $(".close5").slideUp("slow");
+          var elem = $("footer").css("position", "relative");
+          $(elem).css("top", "10px");
+        });
+      });
+    </script>
+</head>
+<body>
+  <header>
+    <h1>SAN<img class="art" src="images/art.jpg"></h1>
+  </header>
+    <nav class="navbar navbar-expand-xl navbar-dark">
+        <a class="navbar-brand" href="anaSayfa.html" _msthash="249899" _msttexthash="297791">SanArt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul  class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" _msthash="857532" _msttexthash="169858">Kitap</a>
+              <ul>
+                <li><a href="yazarlar.html">Yazarlar</a></li>
+                <li><a href="kitaplar.html#tur">Türler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" _msthash="857714" _msttexthash="169858">Şiir</a>
+              <ul>
+                <li><a href="sairler.html">Şairler</a></li>
+                <li><a href="türler.html">Türler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" _msthash="857896" _msttexthash="169858" style="color: white;">Müzik</a>
+              <ul>
+                <li><a href="sarkicilar.html">Şarkıcılar</a></li>
+                <li><a href="muzikler.html">Türler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" _msthash="857896" _msttexthash="169858">Film</a>
+              <ul>
+                <li><a href="#">Yönetmenler</a></li>
+                <li><a href="filmler.html">Türler</a></li> 
+              </ul>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+      <article>
+        <!--<div><h1 id="yabanci" class="col-sm-1 turAdi">Yabanci</h1></div>-->
+        <div class="div"><h1 id="yabanci" class="turAdi">Yabancı</h1><span class="close1">X</span></div>
+        <div class="container first">
+          <div class="col-sm-6">
+            <img class="img" src="images/lovelyImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Billie Eilish ft Khalid - lovely HOPEX Remix.mp3" type="audio/ogg">
+              <source src="musics/Billie Eilish ft Khalid - lovely HOPEX Remix.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/suzsImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Rauf-Faik-Seni-Uzun-Zamandir-Seviyorum.mp3" type="audio/ogg">
+              <source src="musics/Rauf-Faik-Seni-Uzun-Zamandir-Seviyorum.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/derniereDanseImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Indila - Dernière Danse Nicebeatzprod. Remix.mp3" type="audio/ogg">
+              <source src="musics/Indila - Dernière Danse Nicebeatzprod. Remix.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/begginImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Måneskin - Beggin' Lyrics.mp3" type="audio/ogg">
+              <source src="musics/Måneskin - Beggin' Lyrics.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+        <div class="div"><h1 id="blues" class="turAdi">Blues</h1><span class="close2">X</span></div>
+        <div class="container second">
+          <div class="col-sm-6">
+            <img class="img" src="images/sighImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Sigh - Chase Hughes.mp3" type="audio/ogg">
+              <source src="musics/Sigh - Chase Hughes.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/growUpImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Grow Up by Gloria Tells - [Soul Music].mp3" type="audio/ogg">
+              <source src="musics/Grow Up by Gloria Tells - [Soul Music].mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/wwgImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/What We Got.mp3" type="audio/ogg">
+              <source src="musics/What We Got.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/iutImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/spring gang feat. Astyn Turr - Imagine Us There.mp3" type="audio/ogg">
+              <source src="musics/spring gang feat. Astyn Turr - Imagine Us There.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="div"><h1 id="turkPop" class="turAdi">Türk Pop</h1><span class="close3">X</span></div>
+        <div class="container thirst">
+          <div class="col-sm-6">
+            <img class="img" src="images/ariyorumImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Edis - Arıyorum - Mp3indir.club.mp3" type="audio/ogg">
+              <source src="musics/Edis - Arıyorum - Mp3indir.club.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/hepsiGeciyorImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Oğuzhan Koç - Hepsi Geçiyor Official Video.mp3" type="audio/ogg">
+              <source src="musics/Oğuzhan Koç - Hepsi Geçiyor Official Video.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/gozumeBakaBakaImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Gökhan Namlı - Gözüme Baka Baka  Samet Yıldırım Remix .mp3" type="audio/ogg">
+              <source src="musics/Gökhan Namlı - Gözüme Baka Baka  Samet Yıldırım Remix .mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/eyvallahImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Burak King Rozz Kalliope Eyvallah.mp3" type="audio/ogg">
+              <source src="musics/Burak King Rozz Kalliope Eyvallah.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="div"><h1 id="klasik" class="turAdi">Klasik</h1><span class="close4">X</span></div>
+        <div class="container fourth">
+          <div class="col-sm-6">
+            <img class="img" src="images/swanImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Pyotr Ilyich Tchaikovsky - Swan Lake - 25 No. 13 Danses des cygnes d Allegro moderato.mp3" type="audio/ogg">
+              <source src="musics/Pyotr Ilyich Tchaikovsky - Swan Lake - 25 No. 13 Danses des cygnes d Allegro moderato.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/fürEliseImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Beethoven für elise.mp3" type="audio/ogg">
+              <source src="musics/Beethoven für elise.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/overtureImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Gioachino Rossini _ The Barber Of Seville - Overture (1).mp3" type="audio/ogg">
+              <source src="musics/Gioachino Rossini _ The Barber Of Seville - Overture (1).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/eineKleineImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/Eine Kleine Nachtmusik - Mozart.mp3" type="audio/ogg">
+              <source src="musics/Eine Kleine Nachtmusik - Mozart.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="div"><h1 id="fon" class="turAdi">Fon</h1><span class="close5">X</span></div>
+        <div class="container fifth">
+          <div class="col-sm-6">
+            <img class="img" src="images/kemaneyImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/mp3indirdur-Cafer-Nazlibas-Seni-Seviyorum-ft-Salih-Yurttas.mp3" type="audio/ogg">
+              <source src="musics/mp3indirdur-Cafer-Nazlibas-Seni-Seviyorum-ft-Salih-Yurttas.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/eklemedirImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/mp3indirdur-Fon-Muzikleri-Eklemedir-Koca-Kavak.mp3" type="audio/ogg">
+              <source src="musics/mp3indirdur-Fon-Muzikleri-Eklemedir-Koca-Kavak.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/birFirtinaImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/mp3indirdur-Cafer-Nazlibas-Bir-Firtina-Tuttu-Bizi.mp3" type="audio/ogg">
+              <source src="musics/mp3indirdur-Cafer-Nazlibas-Bir-Firtina-Tuttu-Bizi.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-sm-6">
+            <img class="img" src="images/izmirinKavaklariImage.png">
+            <audio class="col-sm-8" controls>  
+              <source src="musics/mp3indirdur-Fon-Muzikleri-Izmirin-Kavaklari.mp3" type="audio/ogg">
+              <source src="musics/mp3indirdur-Fon-Muzikleri-Izmirin-Kavaklari.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <img class="yanFoto" src="images/keman3.png" alt="foto">
+    </article>
+    <footer><a href="hakkimizda.html">Hakkımızda</a></footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+body{
+    background-image: linear-gradient(to right, white,black);
+    /*background: rgb(212, 236, 236);
+    background-image: url('images/karaDelik.jpg');
+    background-size: 1920px;
+    background-repeat: no-repeat;*/ 
+}
+header h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 90px;
+}
+header .art{
+    width: 200px;
+    height:70px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+nav{
+    background-color: rgb(59, 59, 59);
+    margin-top: 20px;
+}
+.navbar-brand, .navbar-collapse{
+    margin-left:300px;
+}
+.navbar .collapse ul li ul{
+    display: none;
+}
+.navbar .collapse ul li ul li a{
+    color: yellow;
+}
+.navbar .collapse ul li ul li:hover a{
+    text-decoration: none;
+}
+.navbar .collapse ul li ul li:active a{
+    color:rgb(255, 153, 0);
+}
+.navbar .collapse ul li ul li:visited a{
+    color:rgb(255, 0, 0);
+}
+.navbar .collapse ul li{
+    margin-right: 50px;
+}
+.navbar .collapse ul li:hover ul{
+    display: block;
+}
+.navbar .collapse ul li ul li{
+    list-style-type: none;
+}
+
+/*article*/
+.col-sm-6{
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 100px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline;
+    float: left;
+    background-image: linear-gradient(to right, black,white);
+}
+.img{
+    border-radius: 10px;
+    width:100px;
+    height:100px;
+    float: left;
+}
+@media screen and (max-width: 720px){
+    .col-sm-6{
+        margin-left: 0;
+        width: 400px;
+    }
+    .col-sm-6 audio{
+        width: 300px;
+    }
+    .container{
+        margin-left: 0px;
+        width: 300px;
+    }
+    .yanFoto{
+        display: none;
+    }
+}
+@media screen and (min-width:550px){
+    .yanFoto{
+        position: absolute;
+        top: 250px;
+        left: 900px;
+    }
+    /*html{
+        width: 1519px;
+    }
+    nav{
+        width: 1519px;
+    }*/
+}
+/*@media screen and (min-width:550px){
+    html{
+        width: 1200px;
+    }
+    nav{
+        width: 1200px;
+    }
+}*/
+.col-sm-6 audio{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    display: inline;
+}
+.container{
+    display: none;
+}
+.turAdi{
+    color: black;
+    width:20%;
+    margin-left: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.div{
+    border-radius: 10px;
+    width:50%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.yanFoto{
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    right: 100px;
+}
+/*section*/
+
+/*Close*/
+.close1{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 180px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close2{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close3{
+    display: none;
+    position: relative;
+    bottom:50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close4{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close5{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 120px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    height: 100px;
+    padding-top: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover{
+    color: black;
+}

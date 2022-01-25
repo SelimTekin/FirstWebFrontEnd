@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SanArt</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="anaSayfa.css">
+    <link rel="shortcut icon" type="image/png" href="images/art.jpg"/>
+    <script>
+      $(document).ready(function() {
+    $(window).resize(function() {
+        if($(window).width() <= 550) {
+            $('#bos').removeClass("typing").addClass('col-expand-xl');
+            $('#bos').text('Önerilerimize bakın.');
+        } else {
+            $('#bos').removeClass("col-expand-xl").addClass('typing');
+            $('.typing').text('Sanatla alakalı öneri sitemize HOŞGELDİNİZ! Önerilerimize göz atın.');
+        }
+    }).resize();
+});
+    </script>
+</head>
+<body>
+  <header>
+    <h1>SAN<img class="art" src="images/art.jpg"></h1>
+  </header>
+    <nav class="navbar navbar-expand-xl navbar-dark">
+        <a class="navbar-brand" href="anaSayfa.html" _msthash="249899" _msttexthash="297791">SanArt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul  class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" _msthash="857532" _msttexthash="169858">Kitap</a>
+              <ul>
+                <li><a href="yazarlar.html">Yazarlar</a></li>
+                <li><a href="kitaplar.html">Türler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" _msthash="857714" _msttexthash="169858">Şiir</a>
+              <ul>
+                <li><a href="sairler.html">Şairler</a></li>
+                <li><a href="türler.html">Türler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" _msthash="857896" _msttexthash="169858">Müzik</a>
+              <ul>
+                <li><a href="sarkicilar.html">Şarkıcılar</a></li>
+                <li><a href="muzikler.html">Türler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" _msthash="857896" _msttexthash="169858">Film</a>
+              <ul>
+                <li><a href="#">Yazarlar</a></li>
+                <li><a href="filmler.html">Türler</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+
+      <article>
+      <div class="typing" id="bos"><span class="content">Sanatla alakalı öneri sitemize HOŞGELDİNİZ! Önerilerimize göz atın.</span></div>
+      <div id="crow"></div>
+      </article>
+      <footer><a href="hakkimizda.html">Hakkımızda</a></footer>
+</body>
+</html>

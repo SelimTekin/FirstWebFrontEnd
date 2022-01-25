@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*genel*/
+@media screen and (min-width:720px){
+  html{
+      width: 1519px;
+  }
+  nav{
+      width: 1519px;
+  }
+}
+body{
+background-image:linear-gradient(to right,bisque, rgb(0, 110, 110));
+}
+header h1{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 90px;
+}
+header .art{
+  width: 200px;
+  height:70px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+/*nav kısmı için*/
+nav{
+  margin-top: 20px;
+  margin-bottom:30px;
+}
+.navbar-brand{
+  margin-left:300px;
+}
+.navbar-collapse{
+  margin-left:200px;
+}
+.navbar .collapse ul li ul{
+  display: none;
+}
+.navbar .collapse ul li ul li a{
+  color: yellow;
+}
+.navbar .collapse ul li ul li:hover a{
+  text-decoration: none;
+}
+.navbar .collapse ul li ul li:active a{
+  color:rgb(255, 153, 0);
+}
+.navbar .collapse ul li ul li:visited a{
+  color:rgb(255, 0, 0);
+}
+.navbar .collapse ul li{
+  margin-right: 50px;
+}
+.navbar .collapse ul li:hover ul{
+  display: block;
+}
+.navbar .collapse ul li ul li{
+  list-style-type: none;
+}
+/* article için*/
+article{
+  height: 600px; 
+}
+.acılır{
+  width: 250px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 40px;
+  padding: 10px;
+  box-shadow: 0 10px 10px rgb(94, 94, 94);
+  background-color: bisque;
+  border-radius: 20px;
+  position: relative;
+  display: inline block;
+  float: left;
+  color: black;
+}
+
+.acıldı{
+  width: auto;
+  height: auto;
+  background-color: white;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  border: 2px solid bisque;
+  padding: 50px;
+  display: none;
+  z-index: 5;
+  position: absolute;
+  border-radius: 20px;
+  color: yellow;
+  background-image:linear-gradient(to right,bisque, rgb(0, 110, 110));
+}
+.acılır p{
+  padding: 10px;
+}
+.toplanır{
+  float: left;
+  width: 80%;
+}
+.katlanır{
+  width: 15%;
+  display: inline;
+  float: left;
+  height: 330px;
+  border-radius: 0 20px 20px 0;
+}
+pre{
+  color: yellow;
+  margin-right: 64px;
+}
+.katlanır{
+  margin-top: 0px;
+}
+.katlanır li{
+  list-style-type:none;
+  background-color: rgb(0, 110, 110);
+  border: 2px solid bisque;
+  height: 40px;
+  width: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 45px;
+}
+.katlanır ul{
+  padding: 0;
+}
+.katlanır h5{
+ color: rgb(0, 110, 110);
+}
+.katlanır li:hover{
+ background-color: orange;
+ 
+}
+.katlanır li a{
+  color: bisque;
+}
+.kapat{
+  border-radius: 10px;
+  background-color: bisque;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: rgb(0, 110, 110);
+}
+.yazpos{
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+h5{
+  text-align: center;
+}
+footer{
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: rgb(0, 110, 110);
+}
+@media screen and (max-width: 550px){
+  .katlanır{
+      margin: 0;
+      width: 100%;
+  }
+  .acıldı{
+    margin-left: 0;
+    width: 100%;
+    
+}
+  article{
+    height: 2300px;
+  }
+}
+
+/*footer*/
+footer{
+  background-color: rgb(0, 110, 110);
+  color: white;
+  height: 100px;
+  padding-top: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer a{
+  color: white;
+  text-decoration: underline;
+}
+footer a:hover{
+  color: black;
+}

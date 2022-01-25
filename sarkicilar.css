@@ -1,0 +1,303 @@
+body{
+    background-image: linear-gradient(to right, white,black);
+    /*background-image: url('images/sanat.jpg');
+    background-size: 5000px;
+    background-repeat: no-repeat;*/ 
+}
+header h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 90px;
+}
+header .art{
+    width: 200px;
+    height:70px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+nav{
+    background-color: rgb(59, 59, 59);
+    margin-top: 20px;
+}
+.navbar-brand, .navbar-collapse{
+    margin-left:300px;
+}
+.navbar .collapse ul li ul{
+    display: none;
+}
+.navbar .collapse ul li ul li a{
+    color: yellow;
+}
+.navbar .collapse ul li ul li:hover a{
+    text-decoration: none;
+}
+.navbar .collapse ul li ul li:active a{
+    color:rgb(255, 153, 0);
+}
+.navbar .collapse ul li ul li:visited a{
+    color:rgb(255, 0, 0);
+}
+.navbar .collapse ul li{
+    margin-right: 50px;
+}
+.navbar .collapse ul li:hover ul{
+    display: block;
+}
+.navbar .collapse ul li ul li{
+    list-style-type: none;
+}
+
+/*article*/
+.col-sm-6{
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 100px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline;
+    float: left;
+}
+.img{
+    border-radius: 10px;
+    width:100px;
+    height:100px;
+    float: left;
+}
+@media (max-width: 720px){
+    .col-sm-6 audio{
+        width: 130px;
+    }
+}
+.col-sm-6 audio{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    display: inline;
+}
+
+.container{
+    display: none;
+}
+.turAdi{
+    width:20%;
+    margin-left: 0px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.yanFoto{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 250px;
+    right: 10px;
+}
+@media screen and (min-width:550px){
+    .yanFoto{
+        position: absolute;
+        top: 250px;
+        left: 900px;
+    }
+    html{
+        width: 1519px;
+    }
+    nav{
+        width: 1519px;
+    }
+}
+@media screen and (max-width: 720px){
+    .col-sm-6{
+        margin-left: 0;
+        width: 400px;
+    }
+    .col-sm-6 audio{
+        width: 300px;
+    }
+    .container{
+        margin-left: 50px;
+        width: 300px;
+    }
+    .yanFoto{
+        display: none;
+    }
+}
+
+/*Close*/
+.close1{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close2{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 220px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close3{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close4{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close5{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close6{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close7{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close8{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close9{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close10{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close11{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close12{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close13{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close14{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close15{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close16{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close17{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close18{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.close19{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 155px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.div{ 
+    width:50%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    height: 100px;
+    padding-top: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover{
+    color: black;
+}
